@@ -56,7 +56,6 @@ export default {
         const geoJson = []
 
         for (let [_, marilyn] of Object.entries(marilyns)) {
-            console.log(marilyn)
             geoJson.push({
                 "type": "Feature",
                 "properties": {
